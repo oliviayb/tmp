@@ -1,5 +1,5 @@
 body {
-  background-color:#fbfefb;
+  background-color:#F5F5F5;
   font-family:'Raleway', sans-serif;
   text-align: center;
   letter-spacing: -1px;
@@ -12,29 +12,64 @@ h1 {
   font-weight: 100;
   letter-spacing: -7px;
 }
+
+img {
+  border-radius: 50%;
+}
+
 h2 {
-  color:#efaac4;
+  color:#6b717e;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
-
 }
+
 p {
-  color:#ffc4d1;
+  color:#efaac4;
   font-size: 20px;
 }
 
 a {
   color:#d4dccd;
-  font-family: 'Raleway', sans-serif; font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; font-size: 18px;
 }
 
 a:hover {
   color:#6b717e;
+}
 
+li {
+    display: inline-block;
+    padding: 7px;
+    text-align: center;
 }
 
 i {
   color:#efaac4;
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+i:hover {color: #d4dccd}
+
+.container {
+  background-color:#F5F5F5;
+}
+.card {
+  background-color: white;
+  margin: 30px 350px;
+  padding: 10px;
+
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+div {
+  background: #fff;
+  box-shadow: 2px 2px 2px gainsboro;
+  padding-bottom: 10px;
+  border-radius: 3px;
+
 }
