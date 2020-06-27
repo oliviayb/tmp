@@ -1,0 +1,39 @@
+.card-container {
+  padding: 0px;
+  max-width: 500px
+  margin 1.5em auto;
+  column-count: 3;
+  column-gap: 1em;
+
+}
+
+.social-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-1 {
+  background-color: #eee;
+  margin: 0 1em 2em;
+  width: 100%;
+  padding: 1em;
+}
+
+.card-info {
+  padding:0px 0px;
+}
+
+.flex-1 {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
