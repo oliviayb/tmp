@@ -66,13 +66,18 @@ i:hover {color: #d4dccd}
     border: 10px;
     margin: 30px auto;
     text-align: center;
-
-}
+  }
 
 ul{
   list-style: none;
   padding-left: 0;
 }
 
+div {
+  background: #fff;
+  box-shadow: 2px 2px 2px gainsboro;
+  padding-bottom: 10px;
+  border-radius: 3px;
 
+}
 
