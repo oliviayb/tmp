@@ -1,0 +1,165 @@
+/* --- Font imports --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+/* --- Component imports --- */
+@import url("components/container.css");
+
+
+/* --- Fonts & colors --- */
+body {
+  background-color: rgb(245,245,245);
+  font-family: 'Assistant', sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+h1, h2, h3 {
+  font-family: 'Assistant', sans-serif;
+  }
+
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 20px 50px 10px 0px;
+    padding: 0 80px 0 0;
+}
+
+a {
+  padding: 0 3px 0;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+ color:#3a86ff;
+}
+
+img {
+  height: 100;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+.avatar {
+  margin: 0 8px 0 0;
+}
+
+i {
+  padding: 0 8px 0 0;
+}
+
+h2.title {
+  padding: 0 0 15px 0;
+}
+
+
+
+.card-1 {
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  display: inline-block;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 55%;
+    width: 100%;
+    padding: 0px;
+}
+
+.avatar {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.far {
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+.element.style {
+   height: 55%;
+    object-fit: cover;
+    width: 300px;
+}
+
+.far:hover {
+  color: #3a86ff;
+}
+
+.logo {
+  display: flex;
+  justify-content: stretch;
+  align-items: left;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-flex-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-flex-1:hover {
+  color: #3a86ff;
+}
+
+
+
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.card-container {
+  margin: 1.5em auto;
+  max-width: 768px;
+  column-gap: 1em;
+  column-count: 2;
+}
+
+/* The Masonry Brick */
+.card-1 {
+  background: #fff;
+  margin: 0 0 1.5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .card-container {
+    column-count: 3;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .card-container {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .card-container {
+    column-count: 2;
+  }
+}
