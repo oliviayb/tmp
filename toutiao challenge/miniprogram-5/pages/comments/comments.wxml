@@ -1,0 +1,10 @@
+<!--pages/comments/comments.wxml-->
+<view wx:for="{{comments}}">
+  <view>{{item.name}}</view>
+  <view>{{item.content}} </view>
+
+  <view data-id="{{item.id}}" bindtap="deleteComment" > x </view>
+
+   <view data-id="{{comment.id}}" data-votes="{{comment.votes}}" bindtap="voteComment" > votes: {{comment.votes}} </view>
+   
+</view>
